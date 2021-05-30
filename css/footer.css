@@ -1,0 +1,80 @@
+@import url(https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;500;600&display=swap');
+
+body{
+  font-family: 'Poppins',
+  sans-serif;
+}
+footer{
+    background: rgb(15, 14, 14);
+    color: #fff;
+    padding: 60px 0;
+}
+.container{
+    width: 100%;
+    max-width: 1100px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #ccc;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.items{
+    flex-basis: 20%;
+}
+.items .logo{
+    text-transform: capitalize;
+    font-size: 1.4em;
+    color: #b6b6b6;
+}
+
+.social{
+    display: flex;
+}
+.social a{
+    height: 30px;
+    width: 30px;
+    background: #383535;
+    border-radius: 5px;
+    margin:10px 5px;
+    text-align: center;
+}
+.social a i{
+    font-size: 1.3em;
+    line-height: 30px;
+}
+.items h3{
+    position: relative;
+    font-size: 1.3em;
+    margin-bottom: 1rem;
+    color: aliceblue;
+}
+.items h3::after{
+    content:"";
+    position: absolute;
+    width: 40px;
+    height: 3px;
+}
+hr{
+    opacity: .3;
+}
+footer .end{
+    text-align: center;
+    padding: 20px 0 0 0;
+}
+@media (max-width:640px){
+    .items{
+    flex-basis: 80%;
+    margin: auto;
+}
+
+}
